@@ -1,0 +1,80 @@
+{
+   "intents" :[
+     {
+        "tag":"greeting",
+        "patterns":["hello","hii","hey","wake up","jarvis"
+         ],
+        "responses":["Hello Sir","How Are You Sir","Always For you sir",
+          "Hello","Here is your Assitant "
+        ]
+     },
+     {
+        "tag":"bye",
+        "patterns":["bye","good bye","see you later","sleep","exit"
+         ],
+        "responses":["bye Sir","i am going Sir",
+        "It'll  be nice to meet you again","See you later"
+        ]
+     },
+     {
+        "tag":"health",
+        "patterns":["How are you","how you","are you fine?","are you good"
+         ],
+        "responses":["Fine ","Perfect","cool","Like you",
+        "are you fine? I'm fine"
+        ]
+     },
+     {
+      "tag":"identity",
+      "patterns":["your name ","who are you","what is your name"
+       ],
+      "responses":["mahi","i am Mahi an AI assitent"
+      ]
+      } ,
+      {
+         "tag":"time",
+         "patterns":["what is time ", "time"
+          ],
+         "responses":["time"
+         ]
+      } ,
+      {
+         "tag":"date",
+         "patterns":["what is date ", "date"
+          ],
+         "responses":["date"
+         ]
+      } ,
+      {
+         "tag":"love",
+         "patterns":["i love you mahi"
+          ],
+         "responses":["I love you too Sir"
+         ]
+      } ,
+      {
+         "tag":"code",
+         "patterns":[" code to print array in python"
+          ],
+         "responses":["for element in my_arrray : print(element)"
+         ]
+      } ,
+      {
+         "tag":"code",
+         "patterns":[" code to print array in c/c++"
+          ],
+         "responses":["for (int i = 0; i < arraySize; i++) {std::cout << myArray[i] << '' }"
+         ]
+      },
+      {
+         "tag":"wikipedia",
+         "patterns":["what is  ", "about","who is","wikipedia"
+          ],
+         "responses":["wikipedia"
+         ]
+      } 
+
+      
+      
+   ]
+}
